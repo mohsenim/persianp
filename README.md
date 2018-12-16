@@ -1,6 +1,6 @@
 ## Persianp Processing Toolbox
 
-Persianp is a text processing tool developed in Java to accomplish preprocessing tasks in Persian texts. The toolbox accomplishes following task:
+Persianp is a text processing tool developed in Java to preprocessing Persian texts. The toolbox accomplishes following tasks:
 * Character-level normalization
 * Tokenization
 * Lemmatization
