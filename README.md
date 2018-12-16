@@ -9,18 +9,18 @@ Persianp is a text processing tool developed in Java to preprocessing Persian te
 * Noun phrase chunking
 
 ### Using Persianp from the command line
-Be sure folder 'res' is next to the 'jar' file.
+Be sure folder `res` is next to the `jar` file.
 
-'''bash
+```bash
 $ java -cp persianp-toolbox-1.0.jar com.persianp.nlp.process.Process -input inputfile.txt -output outputfile.txt -task (tokenize|tag|lemmatize|taglemmatize) [-nostopword] [-prop propertyFile.properties]
-'''
+```
 
 At the moment NP chunking is not supported from the comand line.
 
 ### Using the Persianp API
 Add the API to libraries of your program. The following example shows how to use the toolbox.
 
-'''
+```
 public class TestPersianp { 
 
     public static void main(String[] args) { 
@@ -66,7 +66,7 @@ public class TestPersianp {
     } 
 } 
 
-'''
+```
 
 ### More Information / Citing This Toolbox
 Please cite the paper below if you use the Persianp toolbox in your research. It also provides more information about the toolbox.
@@ -78,7 +78,7 @@ CICLing 2016: Computational Linguistics and Intelligent Text Processing pp 75-87
 
 Bibtex citation:
 
-'''
+```
 @InProceedings{Persianp2016,
 author="Mohseni, Mahdi
 and Ghofrani, Javad
@@ -90,5 +90,4 @@ publisher="Springer International Publishing",
 pages="75--87",
 isbn="978-3-319-75477-2"
 }
-'''
-
+```
