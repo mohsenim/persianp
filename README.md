@@ -40,18 +40,18 @@ public class TestPersianp {
                 process.process(line); 
 
                 System.out.println(process.getText()); 
-                process.getTokens(); 
-                process.getTokensText(); 
-                process.getTags(); 
-                process.getChunkTag(); 
-                process.getLemmas(); 
-                process.getNonStopwordTokens(); 
+//                process.getTokens(); 
+//                process.getTokensText(); 
+//                process.getTags(); 
+//                process.getChunkTag(); 
+//                process.getLemmas(); 
+//                process.getNonStopwordTokens(); 
 
                 int sentenceSize = process.getSentencesSize(); 
                 for (int j = 0; j < sentenceSize; ++j) { 
-                    List tokensText = process.getTokensTextInSentence(j); 
-                    List tags = process.getTagsInSentence(j); 
-                    List lemmas = process.getLemmasInSentence(j); 
+//                    List tokensText = process.getTokensTextInSentence(j); 
+//                    List tags = process.getTagsInSentence(j); 
+//                    List lemmas = process.getLemmasInSentence(j); 
                     List tokens = process.getTokensInSentence(j); 
                     for (int k = 0; k < tokens.size(); ++k) { 
                         System.out.println(tokens.get(k).getText() + "\t\t\t" + tokens.get(k).getLemma() + "\t\t\t" + tokens.get(k).getTag());
