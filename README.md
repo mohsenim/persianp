@@ -71,10 +71,10 @@ public class TestPersianp {
 ### More Information / Citing This Toolbox
 Please cite the paper below if you use the Persianp toolbox in your research. It also provides more information about the toolbox.
 
-> Mahdi Mohseni, Javad Ghofrani, Heshaam Faili
-> Persianp: A Persian Text Processing Toolbox
+> Mahdi Mohseni, Javad Ghofrani, and Heshaam Faili.
+> "Persianp: A Persian Text Processing Toolbox".
 > International Conference on Intelligent Text Processing and Computational Linguistics
-CICLing 2016: Computational Linguistics and Intelligent Text Processing pp 75-87
+CICLing 2016: Computational Linguistics and Intelligent Text Processing, pp 75-87.
 
 Bibtex citation:
 
